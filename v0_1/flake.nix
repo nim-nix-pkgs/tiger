@@ -7,11 +7,11 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs.src-tiger-v0_1.flake = false;
-  inputs.src-tiger-v0_1.ref   = "refs/tags/v0.1";
-  inputs.src-tiger-v0_1.owner = "~ehmry";
-  inputs.src-tiger-v0_1.repo  = "nim_tiger";
-  inputs.src-tiger-v0_1.type  = "sourcehut";
+  inputs."src-tiger-v0_1".flake = false;
+  inputs."src-tiger-v0_1".ref   = "refs/tags/v0.1";
+  inputs."src-tiger-v0_1".owner = "~ehmry";
+  inputs."src-tiger-v0_1".repo  = "nim_tiger";
+  inputs."src-tiger-v0_1".type  = "sourcehut";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

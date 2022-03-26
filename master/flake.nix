@@ -11,6 +11,7 @@
   inputs.src-tiger-master.ref   = "master";
   inputs.src-tiger-master.owner = "~ehmry";
   inputs.src-tiger-master.repo  = "nim_tiger";
+  inputs.src-tiger-master.dir   = "";
   inputs.src-tiger-master.type  = "sourcehut";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

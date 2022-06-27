@@ -37,22 +37,22 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-tiger-master": "src-tiger-master"
+        "src-tiger-v0_2": "src-tiger-v0_2"
       }
     },
-    "src-tiger-master": {
+    "src-tiger-v0_2": {
       "flake": false,
       "locked": {
-        "lastModified": 1570718449,
-        "narHash": "sha256-ksoPmZLxHUySmp1c40y8J84klnHivzRziuRuLj1SVeU=",
+        "lastModified": 1560602669,
+        "narHash": "sha256-Hwp++BkzzaREVCGISkokBQjBHvR0V4HLj3U+Vytjw0I=",
         "owner": "~ehmry",
         "repo": "nim_tiger",
-        "rev": "c81b088704b09ff08304bbc0211ac9b22e1bb77e",
+        "rev": "3280d3dc21c1acc0ad9676163a948b95e3cb59e8",
         "type": "sourcehut"
       },
       "original": {
         "owner": "~ehmry",
-        "ref": "master",
+        "ref": "v0.2",
         "repo": "nim_tiger",
         "type": "sourcehut"
       }
